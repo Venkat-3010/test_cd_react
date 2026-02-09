@@ -22,7 +22,7 @@ jobs:
       - name: Build React
         run: npm run build
 
-      - name: Deploy to Azure App Service (UI)
+      - name: Deploy to Azure App Service (app)
         uses: azure/webapps-deploy@v3
         with:
           app-name: New225
